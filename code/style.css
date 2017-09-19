@@ -1,0 +1,49 @@
+body {
+  font-family: 'Lato', 'Gill Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: #212121;
+  max-width: 1024px;
+  margin: auto;
+  padding: 1em;
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4 {
+  color: #333333;
+}
+
+.signature {
+  font-style: italic;
+  text-align: right;
+  color:#333333;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+    color: #555555;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    content: "\201C";
+    font-size: 4em;
+    line-height: 0.4em;
+    color: #cccccc;
+}
+
+blockquote cite {
+    font-size: 0.7em;
+    display: block;
+    margin-top: 0.7em;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+blockquote cite a {
+  color: inherit;
+}
+

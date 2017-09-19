@@ -1,3 +1,21 @@
+### Foreword
+
+I watched Amy Cheng give this wonderful talk on Nordic.js 2016 on creating art using Javascript. A year later, I still find the topic intriguing and wanted to see if I could get the examples to work and understand the concepts.
+
+I have added an index page and given examples a heading and a short description of the concepts shown as I understand them. Other than that, the code is mostly untouched.
+
+To run the examples, you can just open the code/index.html file in your browser or serve the files using a simple HTTP server like [Node HTTP Server](https://github.com/indexzero/http-server):
+
+```
+npm install http-server -g
+cd code
+http-server
+```
+
+Then open [http://localhost:8080](http://localhost:8080) in your browser.
+
+**Ann-Cathrin Näsström**
+
 Recreate Masterpieces of Modern Art with JavaScript!
 ====================================================
 ## A talk by [Amy Cheng](http://amycheng.info)
