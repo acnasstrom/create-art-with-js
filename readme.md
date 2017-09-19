@@ -14,7 +14,7 @@ http-server
 
 Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
-**Ann-Cathrin Näsström**
+_Ann-Cathrin Näsström_
 
 Recreate Masterpieces of Modern Art with JavaScript!
 ====================================================
