@@ -20,30 +20,34 @@ h1, h2, h3, h4 {
 }
 
 blockquote {
-    font-style: italic;
-    margin: 0;
-    color: #555555;
+  font-style: italic;
+  margin: 0;
+  color: #555555;
 }
 
 blockquote:before {
-    font-family: Georgia, serif;
-    content: "\201C";
-    font-size: 4em;
-    line-height: 0.4em;
-    color: #cccccc;
+  font-family: Georgia, serif;
+  content: "\201C";
+  font-size: 4em;
+  line-height: 0.4em;
+  color: #cccccc;
 }
 
 blockquote cite {
-    font-size: 0.7em;
-    display: block;
-    margin-top: 0.7em;
+  font-size: 0.7em;
+  display: block;
+  margin-top: 0.7em;
 }
 
 blockquote cite:before {
-    content: "\2014 \2009";
+  content: "\2014 \2009";
 }
 
 blockquote cite a {
   color: inherit;
 }
 
+canvas {
+  display: block;
+  margin: 1em auto;
+}
